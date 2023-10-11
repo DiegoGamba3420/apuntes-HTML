@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registro Pacientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario de registro de Pacientes</h1>
+    <form>
+        <label for="nombre"><b>Nombre</b></label>
+        <input type="text" placeholder="ingrese su nombre" id="nombre"><br>
+        <label for="apellido"><b>Apellido</b></label>
+        <input type="text" placeholder="ingrese su apellido" id="apellido"><br>
+        <label for=""><b>Numero de cedula</b></label>
+        <input type="number" placeholder="ingrese su cedula" id="cedula"><br>
+        <label for="Edad"><b>Edad</b></label>
+        <input type="number" placeholder="Edad Paciente" id="Edad"><br>
+        <label for="Teléfono"><b>Teléfono</b></label>
+        <input type="number" placeholder="ingrese su Teléfono" id="Teléfono" required><br>
+        <label for="especialidad requerida"><b>especialidad requerida</b></label>
+        <select name="especialidad requerida" id="especialidad requerida">
+            <option value="">-----------------selecione la especialidad------------------</option>
+            <option value="Medicina general">Medicina general</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Medicina interna">Medicina interna</option>
+            <option value="Dermatología">Dermatologia</option>
+            <option value="Rehabilitación física">Rehabilitación física</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Odontología">Odontología</option>
+            <option value="Radiología">Radiología</option>  
+        </select><br><br>
+        <input type="submit" value="enviar">
+    </form>
+    <div class="boton-container">
+        <a href="index.html"><input type="button" value="volver"></a>
+    </div>   
+</body>
+</html>
